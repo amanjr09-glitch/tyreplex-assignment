@@ -1,0 +1,56 @@
+.services-heading {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-icon {
+  color: #007bff;
+  text-align: left;
+
+}
+
+.service-name {
+  font-weight: bold;
+  text-align: left;
+}
+
+.service-description {
+  color: #555;
+  font-size: 0.95rem;
+  text-align: left;
+
+}
+
+@media (max-width: 576px) {
+
+  .services-section{
+    margin:20px;
+  }
+  .service-card {
+    padding: 1rem;
+  }
+
+  .services-heading {
+    font-size: 1.5rem;
+  }
+
+  .service-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .service-card {
+    padding: 1.5rem;
+  }
+}

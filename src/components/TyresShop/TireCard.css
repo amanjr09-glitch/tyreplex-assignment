@@ -1,0 +1,68 @@
+.tire-container {
+  width: 100%;
+}
+
+.tire-card {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  transition: box-shadow 0.3s ease;
+}
+
+.tire-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.warranty-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+}
+
+.brand-logo {
+  text-align: left;
+}
+
+.tire-model {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tire-size {
+  color: #6c757d;
+}
+
+.rating {
+  font-size: 0.8rem;
+}
+
+.reviews {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.tire-price {
+  font-weight: bold;
+}
+
+.tire-image {
+  text-align: right;
+}
+
+.tire-image img {
+  max-width: 100px;
+}
+
+@media (max-width: 768px) {
+  .tire-mob {
+    flex-direction: column;
+    /* Stack items vertically */
+  }
+  .tire-section {
+    margin: 20px;
+  }
+  .tire-card {
+    margin-bottom: 1rem; /* Add spacing between stacked items */
+  }
+}

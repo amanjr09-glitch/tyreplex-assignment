@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+:root{
+  --text-black: #000; 
+  --body-bg: rgb(255 228 229);
+  --white-bg: #fff;
+  --verify-color: #27b082;
+  --red-color: #ef4a50;
+  --text-yellow: #fac808;
+  --gray-color: #f2f1f1;
+}
+* {
+  font-family: "Moderustic", sans-serif;
+}
+body{
+  background-color: var(--gray-color)  !important;
+  font-weight: normal !important;
+}
+

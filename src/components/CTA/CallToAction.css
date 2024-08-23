@@ -1,0 +1,39 @@
+.cta-section {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-color: #ffeaaa;
+  padding: 10px 35px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cta-heading {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.cta-text {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: left;
+  color: rgba(19, 15, 38, 0.54);
+}
+
+.cta-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+  color: black;
+}
+
+.cta-btn:hover {
+  background-color: #fff;
+  color: black;
+}

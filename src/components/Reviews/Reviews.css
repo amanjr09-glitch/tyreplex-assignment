@@ -1,0 +1,65 @@
+.reviewsRatings {
+  margin: 20px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+.reviewsRatings .userImg img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.reviewsRatings h5 {
+  margin: 0; /* Remove default margin */
+  font-size: 18px; /* Adjust font size for the heading */
+  color: #333; /* Dark color for better readability */
+  text-align: left; /* Align text to the left */
+  margin: 0 10px;
+}
+
+.ratingItem h6 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+  text-align: left; /* Align text to the left */
+}
+.reviewsRatings .ratingItem {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  min-height: 160px;
+  text-align: left;
+}
+.react-multiple-carousel__arrow--right,
+.react-multiple-carousel__arrow--left {
+    background-color: #fff !important; /* Ensure the background color is applied */
+    border: 1px solid #ddd !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.react-multiple-carousel__arrow--right svg,
+.react-multiple-carousel__arrow--left svg {
+    fill: #333 !important; /* Ensure the fill color is applied */
+    stroke: none !important; /* Remove stroke if needed */
+    font-size: 20px !important;
+}
+
+.userContent {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.ratingItem h6 {
+  margin-bottom: 0;
+}
+
+.Reviews-heading{
+  text-align: left;
+  font-size: 1.5rem
+}

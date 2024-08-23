@@ -1,0 +1,241 @@
+.dealsIn{
+    margin:  0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.dealsIn .dealImg img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.dealsIn .dealtem{
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 16.66%;
+}
+.dealItem a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.dealsIn .dealtem .brandImg {
+    height: 35px;
+    max-height: 35px;
+}
+.brandLogo{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 8px;
+    height: 30px;
+    width: 500px;
+    max-height: inherit;
+    overflow: hidden;
+    background-size: 85px;
+    display: flex;
+    background-image: url("./../../public/images/logo_sprite.png");
+}
+.dealsIn .brandImg{
+    height: 84px;
+    width: 100%;
+    max-height: 84px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dealsIn .brandLogo.brand-mrf {
+    background-position: 0px -734px;
+  }
+  .dealsIn .brandLogo.brand-apollo {
+    background-position: 0 3px;
+  }
+  .dealsIn .brandLogo.brand-bridgestone {
+    background-position: 0 -45px;
+    background-size: 90px;
+  }
+  .dealsIn .brandLogo.brand-ceat {
+    background-position: 0 -253px;
+  }
+  .dealsIn .brandLogo.brand-continental {
+    background-position: 0 -118px;
+    background-size: 90px;
+  }
+  .dealsIn .brandLogo.brand-coopertricks {
+    background-position: 0 -235px;
+  }
+  .dealsIn .brandLogo.brand-falken {
+    background-position: 0 -264px;
+  }
+  .dealsIn .brandLogo.brand-goodyear {
+    background-position: 0 -78px;
+    background-size: 90px;
+  }
+  .dealsIn .brandLogo.brand-hankook {
+    background-position: 0 -316px;
+  }
+  .dealsIn .brandLogo.brand-hercules {
+    background-position: 0 -344px;
+  }
+  .dealsIn .brandLogo.brand-sailun {
+    background-position: 0 -1362px;
+  }
+  .dealsIn .brandLogo.brand-jk {
+    background-position: 0 -518px;
+    background-size: 90px;
+  }
+  .dealsIn .brandLogo.brand-kenda {
+    background-position: 0 -412px;
+  }
+  .dealsIn .brandLogo.brand-kumho {
+    background-position: 0 -445px;
+  }
+  .dealsIn .brandLogo.brand-maxxis {
+    background-position: 0 -475px;
+  }
+  .dealsIn .brandLogo.brand-metzeler {
+    background-position: 0 -585px;
+  }
+  .dealsIn .brandLogo.brand-michelin {
+    background-position: 0 -841px;
+    background-size: 90px;
+  }
+  .dealsIn .brandLogo.brand-nexen {
+    background-position: 0 -720px;
+  }
+  .dealsIn .brandLogo.brand-pirelli {
+    background-position: 0 -756px;
+  }
+  .dealsIn .brandLogo.brand-yokohama {
+    background-position: 0 -1313px;
+    background-size: 90px;
+  }
+  .dealsIn .brandLogo.brand-tvs {
+    background-position: -10px -1286px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-metro {
+    background-position: 0 -276px;
+    background-size: 35px;
+  }
+  .dealsIn .brandLogo.brand-vredestein {
+    background-position: 0 -1427px;
+  }
+  .dealsIn .brandLogo.brand-landsail {
+    background-position: 0 -1334px;
+  }
+  .dealsIn .brandLogo.brand-aeolus {
+    background-position: 0 -150px;
+  }
+  .dealsIn .brandLogo.brand-nankang {
+    background-position: -3px -682px;
+  }
+  .dealsIn .brandLogo.brand-birla {
+    background-position: 0 -155px;
+  }
+  .dealsIn .brandLogo.brand-aramis {
+    background-position: 0px -1605px;
+  }
+  .dealsIn .brandLogo.brand-ralco {
+    background-position: -4px -790px;
+  }
+  .dealsIn .brandLogo.brand-firestone {
+    background-position: 0 -288px;
+  }
+  .dealsIn .brandLogo.brand-ultramile {
+    background-position: 2px -693px;
+    background-size: 50px;
+  }
+  .dealsIn .brandLogo.brand-ralson {
+    background-position: 2px -820px;
+  }
+  .dealsIn .brandLogo.brand-mrl {
+    background-position: 0 -1461px;
+  }
+  .dealsIn .brandLogo .brand-logo.brand-maruti-suzuki {
+    background-position-y: 0px -1214px;
+  }
+  .dealsIn .brandLogo .brand-logo.brand-maruti {
+    background-position-y: -2428px;
+  }
+  .dealsIn .brandLogo.brand-mirage {
+    background-position: 0px -1183px;
+    background-size: 66px;
+  }
+  .dealsIn .brandLogo.brand-linglong {
+    background-position: 0px -1146px;
+    background-size: 66px;
+  }
+  .dealsIn .brandLogo.brand-duraturn {
+    background-position: 0px -1296px;
+  }
+  .dealsIn .brandLogo.brand-dunlop {
+    background-position: 0px -1084px;
+    background-size: 66px;
+  }
+  .dealsIn .brandLogo.brand-vk {
+    background-position: 0px -2262px;
+  }
+  .dealsIn .brandLogo.brand-jinyu {
+    background-position: 0 -1795px;
+    background-size: 85px;
+  }
+  .dealsIn .brandLogo.brand-bedrock {
+    background-position: 0 -1685px;
+    background-size: 85px;
+  }
+  .dealsIn .brandLogo.brand-kelly {
+    background-position: 0 -1654px;
+    background-size: 85px;
+  }
+  .dealsIn .brandLogo.brand-neumex {
+    background-position: 0 -2311px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-shinko {
+    background-position: center -2767px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-reise {
+    background-position: center -2385px;
+  }
+  .dealsIn .brandLogo.brand-vee-rubber {
+    background-position: center -2603px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-dolfin {
+    background-position: center -1562px;
+    background-size: 65px;
+  }
+  .dealsIn .brandLogo.brand-comforser {
+    background-position: center -2710px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-bkt {
+    background-position: center -2659px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-cantop {
+    background-position: center -2545px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-leao {
+    background-position: center -2493px;
+    background-size: 100px;
+  }
+  .dealsIn .brandLogo.brand-radar {
+    background-position: center -2355px;
+    background-size: 100px;
+  }
+  
+.react-multiple-carousel__arrow--right {
+    right: 0 !important;
+}
+.react-multiple-carousel__arrow--left{
+    left: 0 !important;
+}
+.ratingItem h6{
+    margin-bottom: 0;
+}

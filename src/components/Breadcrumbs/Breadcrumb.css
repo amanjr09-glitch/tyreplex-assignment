@@ -1,0 +1,52 @@
+
+/* Breadcrumb Wrapper */
+.breadcrumbWrapper {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Breadcrumb List */
+.list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Breadcrumb List Items */
+.listItem {
+    display: flex;
+    align-items: center;
+}
+
+/* Breadcrumb Links */
+.listLink {
+    color: #ed1c24; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.listLink:hover,
+.listLink:focus {
+    text-decoration: underline; 
+}
+
+/* Disabled Link Style */
+.listLink.disabled {
+    color: #6c757d; 
+    pointer-events: none; 
+}
+
+/* Arrow Icon Style */
+.listLink span {
+    margin: 0 8px; 
+    display: flex;
+    align-items: center;
+    color: #6c757d; 
+}
+
+.listLink span svg {
+    font-size: 14px; /* Arrow icon size */
+}

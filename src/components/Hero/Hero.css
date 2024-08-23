@@ -1,0 +1,155 @@
+/* Main Banner Container */
+.HeroContainer {
+  padding: 20px; /* Padding around the container */
+  background-color: #fff; /* White background for the entire container */
+  border-radius: 8px; /* Optional: rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for better separation */
+}
+
+/* Column Styling */
+.col-xl-6,
+.col-lg-6,
+.col-md-6,
+.col-sm-12 {
+  flex: 1;
+}
+
+/* Slider Styling */
+.slider {
+  width: 100%;
+}
+
+/* Dealer Detail Styling */
+.dealerDetail {
+  padding: 20px;
+  text-align: left;
+}
+
+/* Header and Verified Badge */
+.dealerDetail h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.verified {
+  display: flex;
+  align-items: center;
+  color: #28a745; /* Verified badge color */
+  font-weight: 600;
+}
+
+.verified svg {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+/* User Ratings */
+.userRatings {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ratingStars {
+  display: flex;
+  color: #ffcc00; /* Star color */
+}
+
+.totalRating {
+  font-size: 14px;
+  color: #555;
+  text-decoration: underline;
+}
+
+/* Rate Button */
+.rateBtn {
+  color: #a29f9f;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 2px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.rateBtn:hover {
+  color: #ed1c24;
+}
+
+.location svg,
+.timings svg {
+  color: #007bff; /* Icon color */
+}
+
+.address,
+.time {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Payment Modes */
+.paymentModes {
+  margin-top: 34px;
+}
+.paymentModes h6 {
+  font-size: 16px;
+  margin-bottom: px;
+  font-weight: 600;
+  text-align: left; /* Aligns heading to the left */
+}
+
+.paymentModes span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+}
+
+.paymentModes svg {
+  color: #007bff; /* Icon color */
+}
+
+.getDirectionContainer {
+  margin-top: 34px;
+  text-align: right; /* Aligns button to the right */
+}
+
+.getDirectionBtn {
+  padding: 5px 10px;
+  border: 1px solid #ed1c24;
+  border-radius: 8px;
+  background-color: white;
+  color: #ed1c24;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s, border-color 0.3s;
+  font-size: 15px;
+}
+
+.getDirectionBtn:hover {
+  background-color: #ed1c24;
+  border-color: #ed1c24;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  /* Styling for phone screens */
+  .HeroContainer .row {
+    flex-direction: column;
+  }
+
+  .HeroContainer .col-xl-6,
+  .HeroContainer .col-lg-6,
+  .HeroContainer .col-md-6,
+  .HeroContainer .col-sm-12 {
+    width: 100%;
+  }
+
+  .HeroContainer .col-xl-6:first-child {
+    order: 1; /* Make the slider come first */
+  }
+
+  .HeroContainer .col-xl-6:last-child {
+    order: 2; /* Make the dealer details come second */
+  }
+}
